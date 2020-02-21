@@ -1,8 +1,4 @@
-﻿// printPrimeNumber.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-
-#include "iostream"
-//#include "stdafx.h"
-//#include "stdlib.h"
+﻿#include "iostream"
 using namespace std;
 
 //判断输入是否为素数
@@ -27,10 +23,9 @@ int main()
 		    //判断数字
 			if(res==1)
             cout << "the namber is:" << i <<endl;
-
 		}
   
-	//system(pause);
-	return 0;
+	system("pause");
+
 }
 
